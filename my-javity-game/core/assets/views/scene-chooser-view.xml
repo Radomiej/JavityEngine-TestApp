@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="root" debug="true" fillParent="true" expand-all="true"
+	fill-all="true">
+
+	<button name="physicTestButton" text="Physic Test" fill-all="true" />
+	<row />
+	<button name="androidTestButton" text="Android Test" fill-all="true" />
+	<row />
+	<button name="mapTestButton" text="Map Test" fill-all="true" />
+	<row />
+	<button name="canvasTestButton" text="Canvas Test" fill-all="true" />
+	<row />
+	<button name="netTestButton" text="Networking Test" fill-all="true" />
+	<row />
+	<button name="xmlTestButton" text="XML UI Test" fill-all="true" />
+
+</table>
