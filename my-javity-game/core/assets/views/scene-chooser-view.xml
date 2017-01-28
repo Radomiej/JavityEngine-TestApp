@@ -4,9 +4,11 @@
 
 	<button name="physicTestButton" text="Physic Test" fill-all="true" />
 	<row />
-	<button name="androidTestButton" text="Android Test" fill-all="true" />
-	<row />
+	<button name="musicTestButton" text="Music Test" fill-all="true" />
+	<row />	
 	<button name="mapTestButton" text="Map Test" fill-all="true" />
+	<row />
+	<button name="clockTestButton" text="Clock Test" fill-all="true" />
 	<row />
 	<button name="canvasTestButton" text="Canvas Test" fill-all="true" />
 	<row />

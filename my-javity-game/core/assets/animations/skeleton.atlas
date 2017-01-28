@@ -1,0 +1,321 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow/glowa
+  rotate: true
+  xy: 131, 222
+  size: 126, 128
+  orig: 126, 128
+  offset: 0, 0
+  index: -1
+arrow/korpus
+  rotate: false
+  xy: 118, 100
+  size: 118, 120
+  orig: 118, 120
+  offset: 0, 0
+  index: -1
+arrow/nogalewa
+  rotate: true
+  xy: 711, 211
+  size: 53, 65
+  orig: 53, 65
+  offset: 0, 0
+  index: -1
+arrow/nogaprawa
+  rotate: true
+  xy: 290, 82
+  size: 50, 66
+  orig: 50, 66
+  offset: 0, 0
+  index: -1
+arrow/rekalewa
+  rotate: true
+  xy: 654, 212
+  size: 93, 55
+  orig: 93, 55
+  offset: 0, 0
+  index: -1
+arrow/rekaprawa
+  rotate: false
+  xy: 2, 142
+  size: 94, 197
+  orig: 94, 197
+  offset: 0, 0
+  index: -1
+bandit/zo-armor
+  rotate: false
+  xy: 238, 80
+  size: 50, 52
+  orig: 50, 52
+  offset: 0, 0
+  index: -1
+bandit/zo-body
+  rotate: true
+  xy: 261, 255
+  size: 98, 123
+  orig: 98, 123
+  offset: 0, 0
+  index: -1
+bandit/zo-footleft
+  rotate: false
+  xy: 842, 202
+  size: 41, 62
+  orig: 41, 62
+  offset: 0, 0
+  index: -1
+bandit/zo-footright
+  rotate: false
+  xy: 662, 24
+  size: 41, 62
+  orig: 41, 62
+  offset: 0, 0
+  index: -1
+bandit/zo-handleft
+  rotate: false
+  xy: 386, 211
+  size: 132, 103
+  orig: 132, 103
+  offset: 0, 0
+  index: -1
+bandit/zo-handright
+  rotate: false
+  xy: 2, 3
+  size: 114, 137
+  orig: 114, 137
+  offset: 0, 0
+  index: -1
+bandit/zo_head
+  rotate: false
+  xy: 2, 341
+  size: 127, 169
+  orig: 127, 169
+  offset: 0, 0
+  index: -1
+barb/barbglowa
+  rotate: true
+  xy: 744, 266
+  size: 126, 134
+  orig: 126, 134
+  offset: 0, 0
+  index: -1
+barb/barbkorpus
+  rotate: true
+  xy: 893, 406
+  size: 104, 129
+  orig: 104, 129
+  offset: 0, 0
+  index: -1
+barb/barbnogalewa
+  rotate: false
+  xy: 705, 27
+  size: 49, 59
+  orig: 49, 59
+  offset: 0, 0
+  index: -1
+barb/barbnogaprawa
+  rotate: false
+  xy: 648, 88
+  size: 48, 61
+  orig: 48, 61
+  offset: 0, 0
+  index: -1
+barb/barbrekalewa
+  rotate: false
+  xy: 668, 316
+  size: 74, 96
+  orig: 74, 96
+  offset: 0, 0
+  index: -1
+barb/barbrekaprawa
+  rotate: false
+  xy: 131, 350
+  size: 128, 160
+  orig: 128, 160
+  offset: 0, 0
+  index: -1
+mag/magglowa
+  rotate: false
+  xy: 261, 355
+  size: 123, 155
+  orig: 123, 155
+  offset: 0, 0
+  index: -1
+mag/magkorpus
+  rotate: true
+  xy: 749, 394
+  size: 116, 142
+  orig: 116, 142
+  offset: 0, 0
+  index: -1
+mag/magnogalewa
+  rotate: false
+  xy: 746, 101
+  size: 49, 59
+  orig: 49, 59
+  offset: 0, 0
+  index: -1
+mag/magnogaprawa
+  rotate: false
+  xy: 698, 88
+  size: 46, 61
+  orig: 46, 61
+  offset: 0, 0
+  index: -1
+mag/magrekalewa
+  rotate: true
+  xy: 576, 14
+  size: 64, 84
+  orig: 64, 84
+  offset: 0, 0
+  index: -1
+mag/magrekaprawa
+  rotate: false
+  xy: 484, 8
+  size: 90, 70
+  orig: 90, 70
+  offset: 0, 0
+  index: -1
+rycerz/rycerzglowa
+  rotate: true
+  xy: 529, 307
+  size: 105, 137
+  orig: 105, 137
+  offset: 0, 0
+  index: -1
+rycerz/rycerzkorpus
+  rotate: false
+  xy: 261, 134
+  size: 123, 119
+  orig: 123, 119
+  offset: 0, 0
+  index: -1
+rycerz/rycerznaramiennik
+  rotate: true
+  xy: 988, 229
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: -1
+rycerz/rycerznogalewa
+  rotate: true
+  xy: 778, 213
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+rycerz/rycerznogaprawa
+  rotate: false
+  xy: 938, 205
+  size: 48, 63
+  orig: 48, 63
+  offset: 0, 0
+  index: -1
+rycerz/rycerzrekalewa
+  rotate: true
+  xy: 298, 3
+  size: 77, 85
+  orig: 77, 85
+  offset: 0, 0
+  index: -1
+rycerz/rycerzrekaprawa
+  rotate: true
+  xy: 580, 414
+  size: 96, 167
+  orig: 96, 167
+  offset: 0, 0
+  index: -1
+rycerz/rycerztarcza
+  rotate: false
+  xy: 385, 12
+  size: 97, 104
+  orig: 97, 104
+  offset: 0, 0
+  index: -1
+soccer/kaplankaglowa
+  rotate: true
+  xy: 880, 270
+  size: 122, 113
+  orig: 122, 113
+  offset: 0, 0
+  index: -1
+soccer/kaplankakorpus
+  rotate: true
+  xy: 386, 316
+  size: 111, 141
+  orig: 111, 141
+  offset: 0, 0
+  index: -1
+soccer/kaplankanogalewa
+  rotate: false
+  xy: 756, 42
+  size: 47, 57
+  orig: 47, 57
+  offset: 0, 0
+  index: -1
+soccer/kaplankanogaprawa
+  rotate: false
+  xy: 654, 151
+  size: 50, 59
+  orig: 50, 59
+  offset: 0, 0
+  index: -1
+soccer/kaplankarekalewa
+  rotate: false
+  xy: 236, 2
+  size: 60, 76
+  orig: 60, 76
+  offset: 0, 0
+  index: -1
+soccer/kaplankarekaprawa
+  rotate: true
+  xy: 386, 429
+  size: 81, 192
+  orig: 81, 192
+  offset: 0, 0
+  index: -1
+zlodziej/zlodziejglowa
+  rotate: true
+  xy: 520, 185
+  size: 120, 132
+  orig: 120, 132
+  offset: 0, 0
+  index: -1
+zlodziej/zlodziejkorpus
+  rotate: true
+  xy: 118, 2
+  size: 96, 116
+  orig: 96, 116
+  offset: 0, 0
+  index: -1
+zlodziej/zlodziejnogalewa
+  rotate: false
+  xy: 885, 206
+  size: 51, 62
+  orig: 51, 62
+  offset: 0, 0
+  index: -1
+zlodziej/zlodziejnogaprawa
+  rotate: true
+  xy: 706, 162
+  size: 47, 63
+  orig: 47, 63
+  offset: 0, 0
+  index: -1
+zlodziej/zlodziejrekalewa
+  rotate: false
+  xy: 520, 80
+  size: 126, 103
+  orig: 126, 103
+  offset: 0, 0
+  index: -1
+zlodziej/zlodziejrekaprawa
+  rotate: true
+  xy: 386, 118
+  size: 91, 132
+  orig: 91, 132
+  offset: 0, 0
+  index: -1
