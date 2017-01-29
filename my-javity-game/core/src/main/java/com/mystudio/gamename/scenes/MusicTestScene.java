@@ -6,6 +6,7 @@ import org.javity.engine.Scene;
 import org.javity.engine.SceneBulider;
 
 import com.badlogic.gdx.math.Vector2;
+import com.mystudio.gamename.components.BackComponent;
 import com.mystudio.gamename.components.DelayedSoundPlay;
 import com.mystudio.gamename.components.DelayedSoundStop;
 
@@ -13,6 +14,8 @@ public class MusicTestScene implements SceneBulider {
 
 	@Override
 	public void buildScene(Scene scene) {
+		JGameObject back = scene.instantiateGameObject(new Vector2(0, 0));
+		back.addComponent(new BackComponent());
 		
 		
 		//source: http://soundimage.org/fantasywonder/

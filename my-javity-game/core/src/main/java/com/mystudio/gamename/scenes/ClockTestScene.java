@@ -1,17 +1,14 @@
 package com.mystudio.gamename.scenes;
 
 import org.javity.components.LineRenderer;
-import org.javity.components.SoundPlayer;
 import org.javity.components.SpriteRenderer;
 import org.javity.engine.JGameObject;
-import org.javity.engine.JSceneManager;
 import org.javity.engine.Scene;
 import org.javity.engine.SceneBulider;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
-import com.mystudio.gamename.components.DelayedSoundPlay;
-import com.mystudio.gamename.components.DelayedSoundStop;
+import com.mystudio.gamename.components.BackComponent;
 import com.mystudio.gamename.components.clock.ClockBigTip;
 import com.mystudio.gamename.components.clock.ClockLittleTip;
 import com.mystudio.gamename.components.clock.ClockSecondTip;
@@ -23,6 +20,7 @@ public class ClockTestScene implements SceneBulider {
 		JGameObject clock = scene.instantiateGameObject(new Vector2(300, 250));
 		clock.addComponent(new SpriteRenderer("clock/clock.png"));
 		clock.getTransform().setScale(0.15f, 0.15f);
+		clock.addComponent(new BackComponent());
 		
 		JGameObject bigTip = scene.instantiateGameObject(new Vector2(0, 0));
 		LineRenderer lineBigRenderer = new LineRenderer(new Vector2(), new Vector2(0, 100));

@@ -4,7 +4,6 @@ import org.javity.engine.JGameObject;
 import org.javity.engine.Scene;
 import org.javity.engine.SceneBulider;
 import org.javity.ui.JXmlUi;
-import org.javity.ui.SkinsManager;
 
 import com.badlogic.gdx.math.Vector2;
 import com.mystudio.gamename.components.ScenesChooserControllerComponent;

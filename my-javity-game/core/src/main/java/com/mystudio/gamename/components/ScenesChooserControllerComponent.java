@@ -8,9 +8,11 @@ import org.javity.ui.JXmlUi;
 
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.mystudio.gamename.scenes.AnimationTestScene;
 import com.mystudio.gamename.scenes.ClockTestScene;
 import com.mystudio.gamename.scenes.MusicTestScene;
 import com.mystudio.gamename.scenes.PhysicTestScene;
+import com.mystudio.gamename.scenes.SolarTestScene;
 
 import pl.radomiej.map.demo.MapScene;
 
@@ -44,7 +46,18 @@ public class ScenesChooserControllerComponent extends JComponent {
 				JSceneManager.loadScene(new ClockTestScene());
 			}
 		});
-		
+		xmlUi.getActor("solarTestButton").addListener(new ClickListener(){
+			@Override
+			public void clicked(InputEvent event, float x, float y) {
+				JSceneManager.loadScene(new SolarTestScene());
+			}
+		});
+		xmlUi.getActor("animationTestButton").addListener(new ClickListener(){
+			@Override
+			public void clicked(InputEvent event, float x, float y) {
+				JSceneManager.loadScene(new AnimationTestScene());
+			}
+		});
 		
 	};
 }
