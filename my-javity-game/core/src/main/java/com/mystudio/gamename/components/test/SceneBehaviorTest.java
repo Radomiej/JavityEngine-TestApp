@@ -11,6 +11,9 @@ public class SceneBehaviorTest extends TestComponent {
 	public void start() {
 		List<JGameObject> ones = JSceneManager.current.findGameObjectsWithTag("One");
 		isTrue(ones.size() == 2);
+		/**
+		 * Names are provided from JRandom singleton and must be always repeatable. This is test for JRandom.
+		 */
 		isTrue(ones.get(0).getName().equals("Anbulius")); 
 		isTrue(ones.get(1).getName().equals("Eubigutin")); 
 		
