@@ -10,6 +10,7 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mystudio.gamename.scenes.AnimationTestScene;
 import com.mystudio.gamename.scenes.ClockTestScene;
+import com.mystudio.gamename.scenes.CoreTestScene;
 import com.mystudio.gamename.scenes.MusicTestScene;
 import com.mystudio.gamename.scenes.PhysicTestScene;
 import com.mystudio.gamename.scenes.SolarTestScene;
@@ -22,6 +23,13 @@ public class ScenesChooserControllerComponent extends JComponent {
 	@Override
 	public void start() {
 		xmlUi = getGameObject().getComponent(JXmlUi.class);
+		
+		xmlUi.getActor("coreTestButton").addListener(new ClickListener(){
+			@Override
+			public void clicked(InputEvent event, float x, float y) {
+				JSceneManager.loadScene(new CoreTestScene());
+			}
+		});
 		xmlUi.getActor("physicTestButton").addListener(new ClickListener(){
 			@Override
 			public void clicked(InputEvent event, float x, float y) {

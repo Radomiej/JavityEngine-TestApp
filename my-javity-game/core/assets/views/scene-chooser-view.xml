@@ -4,6 +4,8 @@
 	<scroll-panel name="messagesList" colspan="2" expand-all="true"
 		fill-all="true" max-height="300">
 
+		<button name="coreTestButton" text="Core Test" fill-all="true" />
+		<row />
 		<button name="physicTestButton" text="Physic Test" fill-all="true" />
 		<row />
 		<button name="musicTestButton" text="Music Test" fill-all="true" />

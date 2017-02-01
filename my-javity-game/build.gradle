@@ -17,7 +17,7 @@ allprojects {
     version = '1.0.0'
     ext {
         appName = 'my-javity-game'
-        javityVersion = '0.6.0'
+        javityVersion = '0.6.0-SNAPSHOT'
         gdxVersion = '1.9.5'
         roboVMVersion = '1.6.0'
         box2DLightsVersion = '1.4'
@@ -40,9 +40,10 @@ project(":core") {
 
     dependencies {
         compile "pl.javity:javity-engine:$javityVersion"
-        compile "pl.javity:javity-net:$javityVersion"
-        compile "pl.javity:javity-xml-ui:$javityVersion"
-        compile "pl.javity:javity-map:$javityVersion"
+        compile "pl.javity.plugins:net:$javityVersion"
+        compile "pl.javity.plugins:xml-scene2d-ui:$javityVersion"
+        compile "pl.javity.plugins:map:$javityVersion"
+        compile "pl.javity.plugins:canvas:$javityVersion"
     }
 }
 
