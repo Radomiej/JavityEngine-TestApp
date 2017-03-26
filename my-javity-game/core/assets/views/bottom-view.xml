@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="root" debug="true" fillParent="true" expand-all="true"
+	fill-all="true" bottom="true">
+	<table name="" colspan="1" expand-all="true"
+		fill-all="true" max-height="120" bottom="true">
+		
+		<label name="owner" text="Owner" expand-x="true" />
+		<label name="fieldName" text="Field name" expand-x="true" />
+		<label name="population" text="Population" expand-x="true" />
+		<label name="tresurment" text="Tresurment" expand-x="true" />
+			<row />
+		
+		<scroll-panel name="elementOptions" colspan="4"
+			expand-all="true" fill-all="true" max-height="80" bottom="true">
+			
+
+		</scroll-panel>
+	</table>
+</table>

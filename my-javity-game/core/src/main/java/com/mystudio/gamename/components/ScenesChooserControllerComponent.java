@@ -9,8 +9,10 @@ import org.javity.ui.JXmlUi;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.mystudio.gamename.scenes.AnimationTestScene;
+import com.mystudio.gamename.scenes.CanvasTestScene;
 import com.mystudio.gamename.scenes.ClockTestScene;
 import com.mystudio.gamename.scenes.CoreTestScene;
+import com.mystudio.gamename.scenes.MapCanvasTestScene;
 import com.mystudio.gamename.scenes.MusicTestScene;
 import com.mystudio.gamename.scenes.PhysicTestScene;
 import com.mystudio.gamename.scenes.SolarTestScene;
@@ -66,6 +68,17 @@ public class ScenesChooserControllerComponent extends JComponent {
 				JSceneManager.loadScene(new AnimationTestScene());
 			}
 		});
-		
+		xmlUi.getActor("canvasTestButton").addListener(new ClickListener(){
+			@Override
+			public void clicked(InputEvent event, float x, float y) {
+				JSceneManager.loadScene(new CanvasTestScene());
+			}
+		});
+		xmlUi.getActor("mapCanvasTestButton").addListener(new ClickListener(){
+			@Override
+			public void clicked(InputEvent event, float x, float y) {
+				JSceneManager.loadScene(new MapCanvasTestScene());
+			}
+		});
 	};
 }

@@ -14,6 +14,16 @@ public class CameraControllerComponent extends JComponent{
 	@Override
 	public void update() {
 		if(JInput.isTouch()) onMouseDragged(JInput.getMouseDragged());
+		int deltaScroll = JInput.getMouseWheelDelta();
+		
+		if(deltaScroll < 0){
+			System.out.println("delta:" + deltaScroll);
+			JCamera.getMain().setZoom(JCamera.getMain().getZoom() / 2);
+			draggedSpeed = JCamera.getMain().getZoom();
+		}else if(deltaScroll > 0){
+			JCamera.getMain().setZoom(JCamera.getMain().getZoom() * 2);
+			draggedSpeed = JCamera.getMain().getZoom();
+		}
 	}
 	
 	@Override
@@ -26,4 +36,6 @@ public class CameraControllerComponent extends JComponent{
 		position.add(-draggedDelta.x * draggedSpeed, draggedDelta.y * draggedSpeed);
 		JCamera.getMain().setPosition(position);
 	}
+	
+	
 }

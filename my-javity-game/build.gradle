@@ -46,6 +46,7 @@ project(":core") {
         compile "pl.javity.plugins:xml-scene2d-ui:$javityVersion"
         compile "pl.javity.plugins:map:$javityVersion"
         compile "pl.javity.plugins:canvas:$javityVersion"
+        compile "pl.fluence.gis:fluence-osm-to-json:0.0.1-SNAPSHOT"
     }
 }
 

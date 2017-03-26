@@ -17,10 +17,12 @@ public class ClockTestScene implements SceneBulider {
 
 	@Override
 	public void buildScene(Scene scene) {
+		JGameObject back = scene.instantiateGameObject(new Vector2(0, 0));
+		back.addComponent(new BackComponent());
+		
 		JGameObject clock = scene.instantiateGameObject(new Vector2(300, 250));
 		clock.addComponent(new SpriteRenderer("clock/clock.png"));
 		clock.getTransform().setScale(0.15f, 0.15f);
-		clock.addComponent(new BackComponent());
 		
 		JGameObject bigTip = scene.instantiateGameObject(new Vector2(0, 0));
 		LineRenderer lineBigRenderer = new LineRenderer(new Vector2(), new Vector2(0, 100));
