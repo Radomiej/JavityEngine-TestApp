@@ -2,7 +2,7 @@ package com.mystudio.gamename.scenes;
 
 import org.javity.components.SpriteRenderer;
 import org.javity.engine.JGameObject;
-import org.javity.engine.Scene;
+import org.javity.engine.JScene;
 import org.javity.engine.SceneBulider;
 
 import com.badlogic.gdx.graphics.Color;
@@ -21,7 +21,7 @@ import com.mystudio.gamename.components.solar.PlanetComponent;
 public class SolarTestScene implements SceneBulider {
 
 	@Override
-	public void buildScene(Scene scene) {
+	public void buildScene(JScene scene) {
 		scene.getSettings().setClearColor(Color.BLACK);
 		
 		JGameObject back = scene.instantiateGameObject(new Vector2(0, 0));

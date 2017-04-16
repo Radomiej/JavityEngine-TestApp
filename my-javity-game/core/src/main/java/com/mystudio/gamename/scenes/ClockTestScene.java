@@ -3,7 +3,7 @@ package com.mystudio.gamename.scenes;
 import org.javity.components.LineRenderer;
 import org.javity.components.SpriteRenderer;
 import org.javity.engine.JGameObject;
-import org.javity.engine.Scene;
+import org.javity.engine.JScene;
 import org.javity.engine.SceneBulider;
 
 import com.badlogic.gdx.graphics.Color;
@@ -16,7 +16,7 @@ import com.mystudio.gamename.components.clock.ClockSecondTip;
 public class ClockTestScene implements SceneBulider {
 
 	@Override
-	public void buildScene(Scene scene) {
+	public void buildScene(JScene scene) {
 		JGameObject back = scene.instantiateGameObject(new Vector2(0, 0));
 		back.addComponent(new BackComponent());
 		

@@ -1,7 +1,7 @@
 package com.mystudio.gamename.scenes;
 
 import org.javity.engine.JGameObject;
-import org.javity.engine.Scene;
+import org.javity.engine.JScene;
 import org.javity.engine.SceneBulider;
 import org.javity.ui.JXmlUi;
 
@@ -10,7 +10,7 @@ import com.mystudio.gamename.components.ScenesChooserControllerComponent;
 
 public class ScenesChooserScene implements SceneBulider {
 	@Override
-	public void buildScene(Scene scene) {
+	public void buildScene(JScene scene) {
 		JGameObject uIGameObject = scene.instantiateGameObject(new Vector2(0, 0));
 		JXmlUi xmlUiComponent = new JXmlUi("views/scene-chooser-view.xml");
 		uIGameObject.addComponent(xmlUiComponent);

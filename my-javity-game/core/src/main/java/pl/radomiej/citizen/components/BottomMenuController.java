@@ -12,12 +12,15 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Intersector;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.google.common.eventbus.Subscribe;
 
+import pl.radomiej.citizen.view.events.OpenBuildMenuEvent;
 import pl.radomiej.citizen.world.GraphWorld;
 import pl.radomiej.citizen.world.MovableGraphElement;
 import pl.radomiej.citizen.world.events.ElementClickEvent;
@@ -35,10 +38,10 @@ public class BottomMenuController extends JComponent {
 
 	@Subscribe
 	public void elementClickEventListener(ElementClickEvent elementClickEvent) {
-		System.out.println("elementClickEventListener");
+//		System.out.println("elementClickEventListener");
 		
 		JGameObject gameFieldObject = (JGameObject) elementClickEvent.element.getUserObject();
-		GameField gameField = gameFieldObject.getComponent(GameField.class);
+		final GameField gameField = gameFieldObject.getComponent(GameField.class);
 		
 		
 		Label labelPopulation = xmlUi.getActor("population");
@@ -51,6 +54,13 @@ public class BottomMenuController extends JComponent {
 		table.clear();
 		
 		TextButton buttonBuild = new TextButton("Build", xmlUi.getSkin());
+		buttonBuild.addListener(new ClickListener(){
+			@Override
+			public void clicked(InputEvent event, float x, float y) {
+				OpenBuildMenuEvent openBuildMenuEvent = new OpenBuildMenuEvent(gameField);
+				JEngine.INSTANCE.getEventBus().post(openBuildMenuEvent);
+			}
+		});
 		table.add(buttonBuild);
 		
 		TextButton buttonRecruite = new TextButton("Recruit", xmlUi.getSkin());

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table name="root" debug="true" fillParent="true" expand-all="true"
+	fill-all="true">
+	<scroll-panel name="messagesList" colspan="2" expand-y="true"
+		fill-all="true" max-height="300">
+
+		<button name="barrack" text="Barrack" fill-all="true" />
+		<row />
+		<button name="stable" text="Stable" fill-all="true" />
+		<row />
+		<button name="shielding" text="Shielding" fill-all="true" />
+		<row />
+		<button name="blacksmith" text="Blacksmith" fill-all="true" />
+		<row />
+		<button name="archer" text="Archer" fill-all="true" />
+		<row />
+		<button name="market" text="Market" fill-all="true" />
+		<row />
+		<button name="wall" text="Wall" fill-all="true" />
+		<row />
+		<button name="church" text="Church" fill-all="true" />
+		<row />
+		<button name="back" text="Back" fill-all="true" />
+
+
+	</scroll-panel>
+</table>

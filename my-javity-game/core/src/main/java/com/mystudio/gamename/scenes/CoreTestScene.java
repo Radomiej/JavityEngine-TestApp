@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.javity.components.SpriteRenderer;
 import org.javity.engine.JGameObject;
 import org.javity.engine.JRandom;
-import org.javity.engine.Scene;
+import org.javity.engine.JScene;
 import org.javity.engine.SceneBulider;
 import org.javity.engine.utilities.NameGenerator;
 
@@ -27,7 +27,7 @@ import com.mystudio.gamename.components.test.SceneBehaviorTest;
 public class CoreTestScene implements SceneBulider {
 
 	@Override
-	public void buildScene(Scene scene) {
+	public void buildScene(JScene scene) {
 		scene.getSettings().setClearColor(Color.BLACK);
 
 		JGameObject back = scene.instantiateGameObject(new Vector2(0, 0));
