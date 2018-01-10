@@ -6,14 +6,14 @@ import org.javity.components.Rigidbody;
 import org.javity.components.SpriteRenderer;
 import org.javity.engine.JGameObject;
 import org.javity.engine.JScene;
-import org.javity.engine.SceneBulider;
+import org.javity.engine.SceneBuilder;
 
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Vector2;
 import com.mystudio.gamename.components.BackComponent;
 import com.mystudio.gamename.components.MyComponent;
 
-public class PhysicTestScene implements SceneBulider {
+public class PhysicTestScene implements SceneBuilder {
 
 	@Override
 	public void buildScene(JScene scene) {

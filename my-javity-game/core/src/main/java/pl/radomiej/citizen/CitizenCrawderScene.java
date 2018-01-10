@@ -5,7 +5,7 @@ import org.javity.components.TextRenderer;
 import org.javity.components.TouchableObject;
 import org.javity.engine.JGameObject;
 import org.javity.engine.JScene;
-import org.javity.engine.SceneBulider;
+import org.javity.engine.SceneBuilder;
 import org.javity.engine.resources.SpritePivot;
 import org.javity.ui.JXmlUi;
 import org.jrenner.smartfont.SmartFontGenerator;
@@ -27,7 +27,7 @@ import pl.radomiej.citizen.world.GraphWorld;
 import pl.radomiej.citizen.world.MovableGraphElement;
 import pl.radomiej.map.demo.StaticZoomComponent;
 
-public class CitizenCrawderScene implements SceneBulider {
+public class CitizenCrawderScene implements SceneBuilder {
 
 	@Override
 	public void buildScene(JScene scene) {

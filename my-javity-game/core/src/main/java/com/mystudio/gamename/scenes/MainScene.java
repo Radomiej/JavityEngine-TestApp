@@ -1,9 +1,9 @@
 package com.mystudio.gamename.scenes;
 
 import org.javity.engine.JScene;
-import org.javity.engine.SceneBulider;
+import org.javity.engine.SceneBuilder;
 
-public class MainScene implements SceneBulider {
+public class MainScene implements SceneBuilder {
 
 	@Override
 	public void buildScene(JScene scene) {

@@ -3,7 +3,7 @@ package com.mystudio.gamename.scenes;
 import org.javity.components.SpriteRenderer;
 import org.javity.engine.JGameObject;
 import org.javity.engine.JScene;
-import org.javity.engine.SceneBulider;
+import org.javity.engine.SceneBuilder;
 
 import com.badlogic.gdx.math.Vector2;
 import com.mystudio.gamename.components.BackComponent;
@@ -13,7 +13,7 @@ import com.mystudio.gamename.components.canvas.MyTestCanvasDrawer;
 
 import pl.silver.canvas.javity.JavityCanvasComponent;
 
-public class MapCanvasTestScene implements SceneBulider {
+public class MapCanvasTestScene implements SceneBuilder {
 
 	@Override
 	public void buildScene(JScene scene) {

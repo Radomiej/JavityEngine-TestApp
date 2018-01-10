@@ -3,14 +3,14 @@ package com.mystudio.gamename.scenes;
 import org.javity.components.SoundPlayer;
 import org.javity.engine.JGameObject;
 import org.javity.engine.JScene;
-import org.javity.engine.SceneBulider;
+import org.javity.engine.SceneBuilder;
 
 import com.badlogic.gdx.math.Vector2;
 import com.mystudio.gamename.components.BackComponent;
 import com.mystudio.gamename.components.DelayedSoundPlay;
 import com.mystudio.gamename.components.DelayedSoundStop;
 
-public class MusicTestScene implements SceneBulider {
+public class MusicTestScene implements SceneBuilder {
 
 	@Override
 	public void buildScene(JScene scene) {

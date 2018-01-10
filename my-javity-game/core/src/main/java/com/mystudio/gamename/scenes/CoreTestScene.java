@@ -6,7 +6,7 @@ import org.javity.components.SpriteRenderer;
 import org.javity.engine.JGameObject;
 import org.javity.engine.JRandom;
 import org.javity.engine.JScene;
-import org.javity.engine.SceneBulider;
+import org.javity.engine.SceneBuilder;
 import org.javity.engine.utilities.NameGenerator;
 
 import com.badlogic.gdx.graphics.Color;
@@ -24,7 +24,7 @@ import com.mystudio.gamename.components.test.SceneBehaviorTest;
  * @author Radomiej
  *
  */
-public class CoreTestScene implements SceneBulider {
+public class CoreTestScene implements SceneBuilder {
 
 	@Override
 	public void buildScene(JScene scene) {
